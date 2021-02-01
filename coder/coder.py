@@ -1,19 +1,57 @@
 # comentarios
+#python3 # para correr en terminal 
+
 print("Hello World")
 
-# variables
-print("Hello World") # string
+#expresiones. Orden: 
+#1)parentesis, 
+#2)multiplicación y división
+#3)suma y resta
+2 + 2
+6 - 3
+3 * 2
+6 / 2
+(3 + 2) * 7
+3 + 2 * 7
+
+# tipos de datos
+print("Hello World") # string: e.g.'Hello' + ' ' + 'Azalea' + '!' * 10
 print(123)           # integer number
-print(3.14)          # real number
+print(3.14)          # real number or float
 print(False)         # boolean False, the opposite of True
 
-anio = 2020
+str(89)
+int('1234')
+float('3.14')
+
+#operadores de comparación 
+== 
+!=
+<
+>
+<=
+>=
+
+#Booleanos
+False and False
+False and True
+True and False
+True and True
+# ahora con or 
+
+# others
+not True
+not False
+
+# variables
+anio = 2021
 nacimiento = 1999
 curso = "psychopy"
 password = "chilaquil"
 answer = True
 
-# Operadores lógicos
+anio > 2020 and curso == "psychopy"
+
 a = 123
 b = 456
 c = a + b
@@ -24,6 +62,8 @@ t = " "
 u = "Mundo"
 w = s + t + u 
 print(w) # output: "Hello World"
+
+
 
 # Modules
 import math
@@ -127,7 +167,8 @@ while c == None:   # loop until a key is pressed
     i = i + 1
 
 
-# if-else-statement
+# if-else-statement fuera del ambiente de psychopy
+result = 7
 if result >= 8.5:
     message = visual.TextStim(win, text="Aprobado: FELICIDADES")
 elif result >= 6.5:
@@ -137,7 +178,8 @@ elif result >= 5.5:
 else:
     message = visual.TextStim(win, text="NA")
 
-
+message.draw()
+win.flip()
 
 # bbv C0247200 no de cancelacion 
 # https://www.socsci.ru.nl/wilberth/nocms/psychopy/print.php

@@ -9,13 +9,13 @@ win = psychopy.visual.Window(
 
 img = psychopy.visual.ImageStim(
     win=win,
-    image="/Users/azaleareyesaguilar/Desktop/coder/all.png",
+    image="/Users/azaleareyesaguilar/Desktop/psychopy/coder/all.png",
     units="pix"
 )
 
 size_x = img.size[0]
 size_y = img.size[1]
-img.size = [size_x * 1.5, size_y * 1.5]
+img.size = [size_x * 1, size_y * 1]
 #img.opacity = 0.5
 
 img.draw()

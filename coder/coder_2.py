@@ -9,7 +9,7 @@ from psychopy import core, visual, event
   
 ## Setup Section
 win = visual.Window([400,300], monitor="testMonitor")
-textString = "Press any key to continue\n"
+textString = "Presiona cualquier tecla para comenzar"
 message = visual.TextStim(win, text=textString)
  
 ## Experiment Section
